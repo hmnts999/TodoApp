@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+* {
+	font-size: 16px;
+	font-family: "Inconsolata", monospace;
+}
+
+body {
+	padding: 50px;
+	background: url("../computer-operator-clipart.jpg") no-repeat center center
+		fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+
+.TodoList .header input {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #fff;
+	width: 165px;
+}
+
+.TodoList .header button {
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px;
+	margin-right: 0px;
+	background-color: #0066ff;
+	color: #fff;
+	border: 2px solid #0066ff;
+}
+
+.TodoList .header button:hover {
+	background-color: #003399;
+	border: 2px solid #003399;
+	cursor: pointer;
+}
+
+.toDoListBody .theList {
+	list-style: none;
+	color: red;
+	padding-left: 0;
+	width: 250px;
+}
+
+.toDoListBody .theList li {
+	color: #333;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+ul.theList {
+	padding: 0;
+	list-style: none;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+
+.theList li {
+	font-weight: bold;
+	font-size: 2em;
+	color: #151414;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	transition: background-color 0.2s ease-out;
+}
+
+.TodoList .theList li:hover {
+	background-color: pink;
+	cursor: pointer;
+}
+
+ul.theList li:hover {
+	background-color: rgb(0, 0, 0);
+	color: #ffffff;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+	.inputBox {
+		width: 30rem;
+		height: 2rem;
+		border-radius: 8px;
+		outline: none;
+		overflow: hidden;
+	}
+}
+
+.AddBtn {
+	color: white;
+	background: #0066ff00;
+	border-radius: 8px;
+	outline: none;
+	margin-left: 10px;
+	height: 2.5em;
+}
+
+.AddBtn:hover {
+	cursor: pointer;
+}
+
+.inputBox {
+	width: 12rem;
+	height: 2rem;
+	border-radius: 8px;
+	outline: none;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 760px) {
+	.item__class {
+		text-align: center;
+		max-width: 100%;
+		overflow: hidden;
+	}
+	.theList li {
+		font-size: 1em;
+	}
+}

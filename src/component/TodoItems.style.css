@@ -1,0 +1,22 @@
+.theList {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	top: 10px;
+	left: 0%;
+	margin: 0em;
+	padding: 1em;
+	max-width: 90%;
+	min-width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+	.theList {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		left: 0%;
+		margin: 1em;
+		padding: 1em;
+	}
+}

@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
+.header__parent {
+	background: #1ec257;
+	border: 1px solid #25e668;
+	outline: none;
+	text-align: center;
+}
